@@ -1,0 +1,112 @@
+.wpfw_window_bg {
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	display: none;
+}
+
+.wpfw_window {
+	height: 300px;
+	width: 300px;	
+	background: #FFF;
+	overflow: auto;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+	position: absolute;
+}
+
+.wpfw_window.medium {
+	height: 500px;
+	width: 500px;	
+}
+
+.wpfw_window.large {
+	height: 800px;
+	width: 867px;	
+}
+
+.wpfw_window_title {
+	font-size: 14px;
+	color: #fff;
+	background: #4b7d74;
+	padding: 15px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	border-radius: 5px 5px 0px 0px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;	
+}
+
+.wpfw_window_title .close {
+	-moz-border-radius: 0px 5px 0px 0px;
+	border-radius: 0px 5px 0px 0px;
+	-webkit-border-top-right-radius: 5px;	
+	background: #BE7467;
+	color: #FFF;
+	font: 34px/0px entypo;
+	float: right;
+	padding: 16px 15px;
+	margin: -15px -15px 0px 0px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.wpfw_window_title .close:hover {
+	background: #995144;
+}
+
+.wpfw_window_container {
+	border: 10px solid #FFF;
+}
+
+.wpfw_window_container fieldset {
+	padding: 10px 0px;
+	border-top: 1px solid #EFEFEF;
+}
+
+.wpfw_window_container fieldset:first-child {
+	border-top: 0px;
+}
+
+.wpfw_window_container label {
+	padding-top: 5px;
+}
+
+.wpfw_window_buttons {
+	position: absolute;
+	bottom: 0px;
+	padding: 10px 0px;
+	width: 100%;
+	background: #efefef;
+}
+
+.wpfw_window_buttons button.btn {
+	float:right;
+	margin-right: 10px;
+	cursor:pointer;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: #539770;
+	color: #FFF;
+	border-width: 0px;
+	border-bottom: 2px solid #4b7d74;
+	padding: 8px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	font: bold 12px arial, Helvetica;
+	text-align: center;
+	text-decoration: none;	
+}
+
+.wpfw_window_buttons button.btn:hover {
+	background: #4b7d74;
+	color: #FFF;
+	border-bottom: 2px solid #244f48;
+}

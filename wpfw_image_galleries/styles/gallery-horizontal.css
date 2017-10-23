@@ -1,0 +1,37 @@
+#WPFW-Slider-Gallery {
+	height: 518px;
+}
+
+.BottomThumbsContainer {
+	margin: 20px 0px;
+}
+
+.BottomThumbsContainer .jcarousel-clip-horizontal { padding: 0px; }
+.BottomThumbsContainer .jcarousel-next-horizontal { margin-right: -45px; }
+.BottomThumbsContainer .jcarousel-prev-horizontal { margin-left: -45px; }
+
+.BottomThumbsContainer li a {
+	display: block;
+	margin: 0 auto;
+	width: 86px;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 11px;
+	line-height: 1.3em;
+}
+
+.PictureInfo {
+	position: absolute;
+	bottom: 0px;
+	display: block;
+	color: #FFF; 
+	background: rgba(0,0,0,0.5); 
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3200000,endColorstr=#3200000);
+	padding: 10px;
+}
+
+.PictureInfo .PictureTitle { padding: 0px 0px 5px 0px; display: block; }
+.PictureInfo .PictureDesc { padding: 0px; display: block; } 
+.PictureInfo .PictureTitle { font-size: 20px; color: #FFF; }
+.PictureInfo .PictureDesc { font-size: 12px; line-height: 1.3em; color: #FFF; }

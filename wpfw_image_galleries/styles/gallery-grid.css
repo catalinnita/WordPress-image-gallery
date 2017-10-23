@@ -1,0 +1,65 @@
+#WPFW-TopFilters {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#WPFW-TopFilters a {
+	float: left;
+}
+
+.WPFW-Albums div,
+.WPFW-Grid-Gallery div { 
+	margin-bottom: 20px;
+}
+
+.WPFW-Albums div img,
+.WPFW-Grid-Gallery div img {
+	width: 100%;
+	height: auto;
+}
+
+.WPFW-AlbumFrame, .WPFW-GalleryFrame {
+	background: #EEE;
+}
+.WPFW-AlbumFrame h2 a, .WPFW-GalleryFrame h2 { text-decoration: none; padding: 10px; display: block; }
+.WPFW-AlbumFrame p, .WPFW-GalleryFrame p { padding: 0px 10px 10px; }
+
+.WPFW-Frame { 
+	display: block; 
+	position: relative;
+	line-height: 0;
+}
+
+.WPFW-Frame .hover{ 
+	width: 50%;
+	height: 50%;
+	overflow: auto;
+  margin: auto;		
+	background: #EEE;
+	position: absolute;
+	left: 0px; top: 0px; right: 0px; bottom: 0px;
+	display: none;
+	line-height: normal;
+}
+
+.WPFW-Frame .hover_text { 
+	font-size: 11px;
+	height: 11px;
+	overflow: hidden;
+  text-align: center;
+  margin: auto;	
+	display: block;
+	position: absolute;
+	left: 0px; top: 0px; right: 0px; bottom: 0px;
+}
+
+.WPFW-AlbumFrame h2, .WPFW-GalleryFrame h2 { font-size: 25px; line-height: 1.3em; }
+.g12 .WPFW-AlbumFrame h2, .g12 .WPFW-GalleryFrame h2 { font-size: 23px; }
+.g13 .WPFW-AlbumFrame h2, .g13 .WPFW-GalleryFrame h2 { font-size: 20px; }
+.g14 .WPFW-AlbumFrame h2, .g14 .WPFW-GalleryFrame h2 { font-size: 18px; }
+.g15 .WPFW-AlbumFrame h2, .g15 .WPFW-GalleryFrame h2 { font-size: 16px; }
+.g16 .WPFW-AlbumFrame h2, .g16 .WPFW-GalleryFrame h2 { font-size: 14px; }
+.g17 .WPFW-AlbumFrame h2, .g17 .WPFW-GalleryFrame h2 { font-size: 13px; }
+.g18 .WPFW-AlbumFrame h2, .g18 .WPFW-GalleryFrame h2 { font-size: 12px; }

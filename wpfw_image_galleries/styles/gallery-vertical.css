@@ -1,0 +1,28 @@
+.WPFW-Vertical-Gallery {
+	width: 656px;
+	height: 631px;
+	float: left;
+	overflow: hidden;
+}
+
+.RightThumbsContainer {
+	float: left;
+	width: 310px;
+	margin-left: 31px;
+}
+.RightThumbs {
+	height: 631px;
+	overflow: auto;
+}
+
+.RightThumbs a.WPFW-Vertical-Thumb { 
+	display: block;
+	float: left;
+	margin: 0px 6px 13px;
+	width: 86px;
+	height: 79px;
+}
+
+.RightThumbs a.WPFW-Vertical-Thumb
+
+
